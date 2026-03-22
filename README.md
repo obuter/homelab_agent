@@ -160,29 +160,6 @@ Useful for switching the agent's focus to a specific domain.
 
 ---
 
-## Skills
-
-Create `.md` files in the `skill/` directory.
-Each file becomes a loadable system prompt via `/skill <name>`.
-
-```
-skill/
-  coder.md          # scripting assistant
-  architect.md      # homelab architect
-```
-
-Load one:
-```
-/skill coder
-```
-
-Reset to the default homelab agent prompt:
-```
-/system default
-```
-
----
-
 ## Dynamic Skill Routing
 
 The system uses `.md` files in the `skill/` directory to build context-specific system prompts.
