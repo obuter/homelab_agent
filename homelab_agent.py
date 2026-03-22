@@ -1,6 +1,6 @@
 """
-ollama_cli.py — Homelab Agent CLI  v1
-Edit CONFIG, then: python ollama_cli.py
+homelab_agent.py — Homelab Agent CLI  v1
+Edit CONFIG, then: python homelab_agent.py
 
 Requires: pip install requests ddgs prompt_toolkit paramiko python-dotenv
 
