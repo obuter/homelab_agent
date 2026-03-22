@@ -18,7 +18,7 @@ pip install requests ddgs prompt_toolkit paramiko python-dotenv
 
 | File | Purpose |
 |------|---------|
-| `ollama_cli.py` | Main CLI — run this |
+| `homelab_agent.py` | Main CLI — run this |
 | `tools.py` | Agent tool implementations (imported automatically) |
 | `homelab.db` | SQLite database — created on first run |
 | `.env` | Credentials — SSH, OPNsense API, Home Assistant |
@@ -30,7 +30,7 @@ pip install requests ddgs prompt_toolkit paramiko python-dotenv
 ## Quick Start
 
 ```bash
-python ollama_cli.py
+python homelab_agent.py
 ```
 
 Type anything — it goes straight to the agent. No prefix needed.
@@ -59,7 +59,7 @@ Tune agent behaviour in `OPTIONS` (temperature, context size, etc.) and
 
 ## Credentials — `.env`
 
-Create a `.env` file next to `ollama_cli.py`:
+Create a `.env` file next to `homelab_agent.py`:
 
 ```env
 SSH_USER=your_user
