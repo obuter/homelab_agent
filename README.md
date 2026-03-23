@@ -36,9 +36,9 @@ python homelab_agent.py
 Type anything — it goes straight to the agent. No prefix needed.
 
 ```
-ollama_cli ▸ is caddy running on debian
-ollama_cli ▸ check if crowdsec has any active bans
-ollama_cli ▸ show me disk usage on all hosts
+homelab_agent ▸ is caddy running on debian
+homelab_agent ▸ check if crowdsec has any active bans
+homelab_agent ▸ show me disk usage on all hosts
 ```
 
 ---
